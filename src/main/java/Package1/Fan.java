@@ -63,10 +63,11 @@ abstract class Fan {
     public abstract void fast();
     public abstract void slow();
 
-    //Static method
+    //Static method is in progress
 
     public static void display(){
         System.out.println("Static method");
+        System.out.println("Static method completed");
     }
 }
 class Ceiling extends Fan {
